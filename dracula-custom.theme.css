@@ -1,0 +1,147 @@
+/**
+ * @name Dracula-custom
+ * @author Shyn3ss
+ * @description Simple theme inspired from the Dracula theme
+ * @version 1.0.0
+ */
+
+:root {
+
+  /* Custom variables */
+  /* Colors */
+  --primary: #3c3d50;
+  --pink: #ffabd8;
+  --blue: #d4e6f9;
+  --dark-blue: #6272a4;
+
+  /* Icons */
+  --icon-color: #929dc0;
+  --icon-hover: #ffc5e4;
+
+  /* Popout */
+  --popout-border: #23263a;
+  --popout-background: #171828;
+
+  /* Add server */
+  --add-server-button: #6ce890;
+  --add-server-button-bg: #40e16f;
+
+
+  /* Discord's variables */
+  /* Texts */
+  --header-primary: #f5d7d7;
+  --channels-default: var(--blue);
+  --interactive-active: #ffc5e4;
+  --interactive-muted: var(--dark-blue);
+  --text-link: var(--pink);
+
+  /* Main colors */
+  --background-primary: var(--primary);
+  --background-secondary: #2c2d42;
+  --background-secondary-alt: #24253b;
+  --background-tertiary: #1e1f35;
+  --background-accent: var(--dark-blue);
+  --channeltextarea-background: #44455c;
+  --background-message-hover: rgba(0, 0, 0, 0.125);
+  --background-modifier-selected: rgba(255, 255, 255, 0.125);
+  --background-modifier-active: rgba(255, 255, 255, 0.1);
+  --background-modifier-hover: rgba(255, 255, 255, 0.075);
+
+  /* Scrollbar */
+  --scrollbar-auto-track: var(--background-tertiary);
+  --scrollbar-auto-thumb: var(--background-accent);
+}
+
+/* Server name */
+.headerContent-2SNbie {
+  color: var(--channels-default);
+}
+
+/* Channel name :hover */
+.iconVisibility-vptxma.wrapper-NhbLHG:hover .name-28HaxV {
+  color: var(--channels-default);
+}
+
+/* Popout */
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--popout-border);
+}
+
+.overlayBackground-1KgwVi {
+  background-color: var(--popout-background);
+}
+
+.defaultColor-1EVLSt {
+  color: var(--channels-default);
+}
+
+/* Channel's icon */
+.icon-2W8DHg {
+  color: var(--background-accent) !important;
+}
+
+/* Action on messge */
+.icon-1zidb7 {
+  color: var(--icon-color);
+}
+
+.button-3bklZh:hover .icon-1zidb7 {
+  color: var(--icon-hover);
+}
+
+/* Top right buttons */
+.clickable-ZD7xvu .icon-2xnN2Y {
+  color: var(--icon-color);
+}
+
+.iconWrapper-2awDjA.clickable-ZD7xvu:hover .icon-2xnN2Y {
+  color: var(--icon-hover);
+}
+
+/* Bot left buttons */
+.button-12Fmur {
+  color: var(--icon-color);
+}
+
+.button-12Fmur:hover {
+  color: var(--icon-hover) !important;
+}
+
+/* User's statut */
+.hoverRoll-2XwpoF {
+  color: var(--icon-color);
+}
+
+/* User's name */
+.text-sm-normal-AEQz4v .title-338goq {
+  color: var(--pink);
+}
+
+/* Channel text area buttons */
+.button-2fCJ0o {
+  color: var(--icon-color);
+}
+
+.button-2fCJ0o:hover {
+  color: var(--icon-hover);
+}
+
+/* Button add server */
+.circleIconButton-1VxDrg {
+  color: var(--add-server-button);
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  /* :hover */
+  background-color: var(--add-server-button-bg);
+}
+
+/* Friend top bar */
+.theme-dark .themed-Hp1KC_ {
+  background: var(--primary);
+}
+
+/* Top bar text */
+.children-3xh0VB * {
+  color: var(--channels-default) !important;
+}
