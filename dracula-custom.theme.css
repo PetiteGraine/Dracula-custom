@@ -5,6 +5,9 @@
  * @version 1.0.0
  */
 
+@import url('https://petitegraine.github.io/Dracula-custom/css/main.css');
+@import url('https://petitegraine.github.io/Dracula-custom/css/icons.css');
+
 :root {
 
   /* Custom variables */
@@ -69,8 +72,9 @@
   color: var(--blue);
 }
 
+/* Pin message */
 .header-1w9Q93 {
-  /*Pin message*/
+
   background-color: var(--tertiary);
 }
 
@@ -79,16 +83,13 @@
 .markup-eYLPri code,
 .theme-dark .wrapperAudio-1Bzv_Z,
 .container-rr3Ruk * {
-  /*Pin message*/
   background-color: var(--secondary);
 }
 
 .messageGroupWrapper-1jf_7C {
-  /*Pin message*/
   background-color: var(--primary);
 }
 
 .anchor-1X4H4q {
-  /*Pin message*/
   color: var(--pink) !important;
 }
