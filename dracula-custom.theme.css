@@ -37,12 +37,15 @@
   --blue-345: #ffabd8;
 
   /* Brands */
-  --brand-experiment: #f588a6;
-  --brand-experiment-560: #f37094;
-  --brand-experiment-600: #f15983;
+  --brand-experiment: #596999;
+  --brand-experiment-560: #4b5880;
+  --brand-experiment-600: #3c4767;
+
   /* Buttons */
-  --green-360: #ef4171;
-  --red-500: #be2840;
+  --green-360: #f3c362;
+  --red-430: #965766;
+  --red-500: #764450;
+  --red-530: #643a44;
 
   /* Discord's variables */
   --text-normal: white;
