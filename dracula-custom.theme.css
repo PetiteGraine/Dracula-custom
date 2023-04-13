@@ -9,15 +9,15 @@
 
   /* Colors */
 
-  /* Header primary */
+  /* Header-primary */
   --primary-130: #d4e6f9;
   /* Interactive-hover */
   --primary-230: #f5d7d7;
   /* Interactive-normal */
   --primary-330: #929dc0;
-  /* Channels default */
+  /* Channels-default */
   --primary-360: #d4e6f9;
-  /* Channels icon */
+  /* Channels-icon */
   --primary-400: #6272a4;
   /* Interactive-muted */
   --primary-530: #6272a4;
@@ -38,9 +38,8 @@
 
   /* Buttons */
   --brand-experiment: #f588a6;
-  --green-360: #be2840;
+  --green-360: #ef4171;
   --red-500: #be2840;
-
 
   /* Discord's variables */
   --text-normal: white;
