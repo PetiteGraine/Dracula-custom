@@ -5,91 +5,50 @@
  * @version 1.0.0
  */
 
-@import url('https://petitegraine.github.io/Dracula-custom/css/main.css');
-@import url('https://petitegraine.github.io/Dracula-custom/css/icons.css');
-
 :root {
 
-  /* Custom variables */
   /* Colors */
-  --primary: #3c3d50;
-  --secondary: #2c2d42;
-  --tertiary: #1e1f35;
-  --pink: #ffabd8;
-  --blue: #d4e6f9;
-  --dark-blue: #6272a4;
 
-  /* Icons */
-  --icon-color: #929dc0;
-  --icon-hover: #ffc5e4;
-
-  /* Popout */
-  --popout-border: #23263a;
-  --popout-background: #171828;
-
-  /* Add server */
-  --add-server-button: #6ce890;
-  --add-server-button-bg: #40e16f;
+  /* Header primary */
+  --primary-130: #d4e6f9;
+  /* Interactive-hover */
+  --primary-230: #f5d7d7;
+  /* Interactive-normal */
+  --primary-330: #929dc0;
+  /* Channels default */
+  --primary-360: #d4e6f9;
+  /* Channels icon */
+  --primary-400: #6272a4;
+  /* Interactive-muted */
+  --primary-530: #6272a4;
+  /* Channeltextarea background */
+  --primary-560: #44455c;
+  /* Primary */
+  --primary-600: #3c3d50;
+  /* Secondary */
+  --primary-630: #2c2d42;
+  /* Secondary-alt */
+  --primary-660: #24253b;
+  /* Tertiary */
+  --primary-700: #1e1f35;
+  /* Background-floating */
+  --primary-800: #171828;
+  /* Text link */
+  --blue-345: #ffabd8;
 
 
   /* Discord's variables */
-  /* Texts */
-  --header-primary: #f5d7d7;
-  --channels-default: var(--blue);
+  --text-normal: white;
   --interactive-active: #ffc5e4;
-  --interactive-muted: var(--dark-blue);
-  --text-link: var(--pink);
+  --interactive-muted: var(--primary-530);
 
-  /* Main colors */
-  --background-primary: var(--primary);
-  --background-secondary: var(--secondary);
-  --background-secondary-alt: #24253b;
-  --background-tertiary: var(--tertiary);
-  --background-accent: var(--dark-blue);
-  --channeltextarea-background: #44455c;
+  /* Hover message */
   --background-message-hover: rgba(0, 0, 0, 0.125);
   --background-modifier-selected: rgba(255, 255, 255, 0.125);
   --background-modifier-active: rgba(255, 255, 255, 0.1);
   --background-modifier-hover: rgba(255, 255, 255, 0.075);
 
   /* Scrollbar */
-  --scrollbar-auto-track: var(--background-tertiary);
-  --scrollbar-auto-thumb: var(--background-accent);
-}
-
-/* Profile */
-.userProfileInnerThemedNonPremium-2AJg-H,
-.userPanelInnerThemed-3YO1BB {
-  background: var(--popout-border);
-}
-
-.overlayBackground-2aa7wt,
-.userPanelOverlayBackground-3Zmcq2 {
-  background-color: var(--popout-background);
-}
-
-.defaultColor-1EVLSt {
-  color: var(--blue);
-}
-
-/* Pin message */
-.header-1w9Q93 {
-
-  background-color: var(--tertiary);
-}
-
-.messagesPopout-eVzQcI,
-.grid-1aWVsE,
-.markup-eYLPri code,
-.theme-dark .wrapperAudio-1Bzv_Z,
-.container-rr3Ruk * {
-  background-color: var(--secondary);
-}
-
-.messageGroupWrapper-1jf_7C {
-  background-color: var(--primary);
-}
-
-.anchor-1X4H4q {
-  color: var(--pink) !important;
+  --scrollbar-auto-track: var(--primary-700);
+  --scrollbar-auto-thumb: var(--primary-530);
 }
