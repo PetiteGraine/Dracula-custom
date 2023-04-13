@@ -10,6 +10,8 @@
   /* Custom variables */
   /* Colors */
   --primary: #3c3d50;
+  --secondary: #2c2d42;
+  --tertiary: #1e1f35;
   --pink: #ffabd8;
   --blue: #d4e6f9;
   --dark-blue: #6272a4;
@@ -37,9 +39,9 @@
 
   /* Main colors */
   --background-primary: var(--primary);
-  --background-secondary: #2c2d42;
+  --background-secondary: var(--secondary);
   --background-secondary-alt: #24253b;
-  --background-tertiary: #1e1f35;
+  --background-tertiary: var(--tertiary);
   --background-accent: var(--dark-blue);
   --channeltextarea-background: #44455c;
   --background-message-hover: rgba(0, 0, 0, 0.125);
@@ -52,96 +54,41 @@
   --scrollbar-auto-thumb: var(--background-accent);
 }
 
-/* Server name */
-.headerContent-2SNbie {
-  color: var(--channels-default);
-}
-
-/* Channel name :hover */
-.iconVisibility-vptxma.wrapper-NhbLHG:hover .name-28HaxV {
-  color: var(--channels-default);
-}
-
-/* Popout */
-.userProfileInnerThemedNonPremium-1gT-zY {
+/* Profile */
+.userProfileInnerThemedNonPremium-2AJg-H,
+.userPanelInnerThemed-3YO1BB {
   background: var(--popout-border);
 }
 
-.overlayBackground-1KgwVi {
+.overlayBackground-2aa7wt,
+.userPanelOverlayBackground-3Zmcq2 {
   background-color: var(--popout-background);
 }
 
 .defaultColor-1EVLSt {
-  color: var(--channels-default);
+  color: var(--blue);
 }
 
-/* Channel's icon */
-.icon-2W8DHg {
-  color: var(--background-accent) !important;
+.header-1w9Q93 {
+  /*Pin message*/
+  background-color: var(--tertiary);
 }
 
-/* Action on messge */
-.icon-1zidb7 {
-  color: var(--icon-color);
+.messagesPopout-eVzQcI,
+.grid-1aWVsE,
+.markup-eYLPri code,
+.theme-dark .wrapperAudio-1Bzv_Z,
+.container-rr3Ruk * {
+  /*Pin message*/
+  background-color: var(--secondary);
 }
 
-.button-3bklZh:hover .icon-1zidb7 {
-  color: var(--icon-hover);
+.messageGroupWrapper-1jf_7C {
+  /*Pin message*/
+  background-color: var(--primary);
 }
 
-/* Top right buttons */
-.clickable-ZD7xvu .icon-2xnN2Y {
-  color: var(--icon-color);
-}
-
-.iconWrapper-2awDjA.clickable-ZD7xvu:hover .icon-2xnN2Y {
-  color: var(--icon-hover);
-}
-
-/* Bot left buttons */
-.button-12Fmur {
-  color: var(--icon-color);
-}
-
-.button-12Fmur:hover {
-  color: var(--icon-hover) !important;
-}
-
-/* User's statut */
-.hoverRoll-2XwpoF {
-  color: var(--icon-color);
-}
-
-/* User's name */
-.text-sm-normal-AEQz4v .title-338goq {
-  color: var(--pink);
-}
-
-/* Channel text area buttons */
-.button-2fCJ0o {
-  color: var(--icon-color);
-}
-
-.button-2fCJ0o:hover {
-  color: var(--icon-hover);
-}
-
-/* Button add server */
-.circleIconButton-1VxDrg {
-  color: var(--add-server-button);
-}
-
-.circleIconButton-1VxDrg.selected-2r1Hvo {
-  /* :hover */
-  background-color: var(--add-server-button-bg);
-}
-
-/* Friend top bar */
-.theme-dark .themed-Hp1KC_ {
-  background: var(--primary);
-}
-
-/* Top bar text */
-.children-3xh0VB * {
-  color: var(--channels-default) !important;
+.anchor-1X4H4q {
+  /*Pin message*/
+  color: var(--pink) !important;
 }

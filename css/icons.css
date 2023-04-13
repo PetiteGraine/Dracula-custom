@@ -1,0 +1,40 @@
+/* Channel's icon */
+.icon-2W8DHg {
+    color: var(--background-accent) !important;
+}
+
+/* Action on messge */
+.icon-1zidb7 {
+    color: var(--icon-color);
+}
+
+.button-3bklZh:hover .icon-1zidb7 {
+    color: var(--icon-hover);
+}
+
+/* Top right buttons */
+.clickable-ZD7xvu .icon-2xnN2Y {
+    color: var(--icon-color);
+}
+
+.iconWrapper-2awDjA.clickable-ZD7xvu:hover .icon-2xnN2Y {
+    color: var(--icon-hover);
+}
+
+/* Bot left buttons */
+.button-12Fmur {
+    color: var(--icon-color);
+}
+
+.button-12Fmur:hover {
+    color: var(--icon-hover) !important;
+}
+
+/* Channel text area buttons */
+.button-2fCJ0o {
+    color: var(--icon-color);
+}
+
+.button-2fCJ0o:hover {
+    color: var(--icon-hover);
+}
